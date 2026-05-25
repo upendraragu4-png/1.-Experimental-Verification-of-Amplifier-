@@ -59,14 +59,10 @@ MODEL GRAPH
 
 
 
-DESIGN:
+## DESIGN:
 
 Inverting amplifier:
-
-A = -Rf/R1
-Take  A = 10
-Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
+![WhatsApp Image 2026-03-27 at 6 57 55 PM](https://github.com/user-attachments/assets/067ad514-7b85-4ffd-98ff-5fd4aecd19b2)
 
 PROCEDURE:
 Inverting amplifier:
@@ -82,19 +78,14 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
- 
+<img width="787" height="296" alt="image" src="https://github.com/user-attachments/assets/ed43c615-750f-4bf9-b04a-bf9301ebd520" />
 
+## CALCULATION
+<img width="766" height="321" alt="image" src="https://github.com/user-attachments/assets/c3e115c6-97cc-4da1-88cd-ff8ab45e0072" />
 
----
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="1226" height="1600" alt="image" src="https://github.com/user-attachments/assets/14646833-57df-401f-8387-3cca26392200" />
 
-
----
 ### **Non-Inverting Amplifier**
 
 If the signal is applied to the non-inverting input terminal without inversion, it is called a **non-inverting amplifier**.  
@@ -118,7 +109,10 @@ ACL = 1 + RF/R1
 <img width="456" height="340" alt="image" src="https://github.com/user-attachments/assets/00c7aaec-b4d8-414e-afa3-e985eb3dd902" />
 
 ---
-PROCEDURE:
+## DESIGN
+![WhatsApp Image 2026-03-27 at 6 59 33 PM](https://github.com/user-attachments/assets/6ebe6a26-87cc-4c97-8fdb-0780e42bb5cb)
+
+## PROCEDURE:
 ### **For  Non-Inverting Amplifier**
 1. Select R1  as a constant value and choose a value for Rf .  
 2. Connect the circuit as per the diagram.  
@@ -129,18 +123,16 @@ PROCEDURE:
 7. Plot the input vs. output waveform for one practical case.
 
 ## TABULATION
+<img width="815" height="322" alt="image" src="https://github.com/user-attachments/assets/69b2b50a-589f-4e2c-b5b8-7a4311cda4d8" />
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+## CALCULATION
+<img width="886" height="256" alt="image" src="https://github.com/user-attachments/assets/f2f95f37-d2de-4dd8-89a0-6e217eaa7e72" />
 
----
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+<img width="653" height="840" alt="Screenshot 2026-03-27 184219" src="https://github.com/user-attachments/assets/b369bd92-38f3-4fe5-b05a-248860ed69ca" />
 
----
+
 ## DIFFERENTIAL AMPLIFIER
 
 A circuit that amplifies the **difference** between two input signals is called a **Differential Amplifier**.  
@@ -158,6 +150,7 @@ A = Vo/{V2 - V1} = -Rf/R1
 ---
 
 ## DESIGN
+![WhatsApp Image 2026-03-27 at 6 36 16 PM](https://github.com/user-attachments/assets/6014fc83-d68d-4ea0-b320-c3a8b9d949ce)
 
 
 ### **Differential Amplifier**
@@ -172,7 +165,6 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 ---
 
 
-
 ## PROCEDURE (Differential Amplifier)
 1. Select  R1, R2, R3, Rf  such that R1 = R2  and  R3 = Rf .  
 2. Connect the circuit as per the circuit diagram.  
@@ -185,18 +177,14 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 ---
 
 ## TABULATION (Differential Amplifier)
+<img width="501" height="240" alt="image" src="https://github.com/user-attachments/assets/fa4dba1f-7577-43bd-8f1a-372392f2eb0b" />
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+## CALCULATION
+<img width="468" height="454" alt="image" src="https://github.com/user-attachments/assets/f97fd95f-6555-4234-a4c7-c91ca2f1cb11" />
 
----
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="1206" height="1600" alt="image" src="https://github.com/user-attachments/assets/d47cc1a9-5aaa-4cae-b45a-a550e7a66212" />
 
-
----
 ## INSTRUMENTATION AMPLIFIER
 
 THEORY:
@@ -224,19 +212,16 @@ PROCEDURE:
 ---
 
 ## TABULATION (Instrumentation Amplifier)
+<img width="941" height="526" alt="image" src="https://github.com/user-attachments/assets/9263fecd-c02a-4b46-8584-8156e849f8b4" />
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+## CALCULATION
+<img width="266" height="248" alt="image" src="https://github.com/user-attachments/assets/56e5a705-1b8c-4512-bda6-be081ae86d3a" />
 
----
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="1188" height="1600" alt="image" src="https://github.com/user-attachments/assets/6b541b80-03c2-4990-a222-529f3d0ffe84" />
 
 
----
 ## RESULT
-Thus, the **Inverting**, **Non-Inverting**, **Differential**, and **Instrumentation Amplifiers** were designed and their performance successfully tested using Op-Amp IC 741.
+<img width="486" height="189" alt="image" src="https://github.com/user-attachments/assets/701b217d-6c45-4fee-87dd-5e304b13a6ca" />
 
----
+
